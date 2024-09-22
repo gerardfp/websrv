@@ -7,7 +7,7 @@ Desarrolla una aplicación para mostrar un catálogo de productos.
 La aplicación tendrá TRES catálogos diferentes, que mostrarán diferentes productos:
 
 * Ofertas
-* Seleccion
+* Selección
 * Top-ventas
 
 De cada producto se mostrará una `imagen`, una `descripción` y un `precio`. Los catálogos incluirán un enlace para ver en detalle un producto, con el parámetro `{productoid}`.
@@ -59,7 +59,7 @@ Cada catálogo guardará sus productos en una variable diferente.
 
 * `topventas`
 
-  Guardará los productos en un array de objectos de clase `Producto`
+  Guardará los productos en un array de objetos de clase `Producto`
 
 Estas variables estarán definidas _simplemente_ en el controlador, y se definirá un método `init_variables()` para inicializarlas.
 
