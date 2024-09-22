@@ -49,19 +49,19 @@ Además, estas cinco vistas, deberán incluir una barra superior con un enlace a
 
 Cada catálogo guardará sus productos en una variable diferente.
 
-* seleccion:
-
-  Guardará los productos como un array asociativo
-
-* ofertas
+* `seleccion`:
 
   Guardará los productos en un string JSON, que se evaluará con `json_decode`
 
-* topventas
+* `ofertas`
+
+  Guardará los productos como un array asociativo
+
+* `topventas`
 
   Guardará los productos en un array de objectos de clase `Producto`
 
-Estas variables estarán definidas _simplemente_ en el controlador, y se definirá un método _init_variables()_ para inicializarlas.
+Estas variables estarán definidas _simplemente_ en el controlador, y se definirá un método `init_variables()` para inicializarlas.
 
 A continuación se muestra un esqueleto de como se podría hacer:
 
@@ -81,22 +81,28 @@ class ProductController extends Controller
     public $seleccion, $ofertas, $topventas;
 
     function init_variables() {
-        
+
+        // JSON String 
         $this->seleccion = json_decode('[
            { "name" : "producto seleccion 1", "id" : 991},
            { "name" : "producto seleccion 2", "id" : 992}
         ]');
 
+        // Array asociativo
         $this->ofertas = [
             [ "name" => "producto oferta 1", "id" => 993],
             [ "name" => "producto oferta 2", "id" => 994]
         ];
 
-        $this->topventas = [new Product("producto top 1", 995), new Product("producto top 2", 996)];
+        // Array de objetos
+        $this->topventas = [
+            new Product("producto top 1", 995),
+            new Product("producto top 2", 996)
+        ];
     }
 
 
-    // resto de metodos menejadores de rutas    
+    // ...resto de metodos menejadores de rutas...
 }
 
 ```
