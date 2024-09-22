@@ -28,7 +28,7 @@ Retorna l'array commentaris.
 
 Crida al mètode `create()`.
 
-Retorna un formulari HTML per a crear commentaris. Aquest formulari tindrà un camp de text i un submit. Haurà de fer una acció POST a la ruta /comments
+Retorna un formulari HTML per a crear commentaris. Aquest formulari tindrà un camp de text i un submit. Haurà de fer una acció POST a la ruta `/comments`
 
 ## `POST /comments`
 
@@ -42,24 +42,24 @@ Retornarà l'array de comentaris.
 
 Crida al mètode `show(string $commentid)`
 
-Retornarà el comentari de l'array que estiga en la posició especificada en el commentid de la petició
+Retornarà el comentari de l'array que estiga en la posició especificada en el `{commentid}` de la petició
 
 ## `GET /comments/{commentid}/edit`
 
 Crida al mètode `edit(string $commentid)`
 
-Retornarà un formulari HTML per a editar un comentari. Haurà de fer una acció PATCH a /comments/{commentid} (***, triple asterisc)
+Retornarà un formulari HTML per a editar un comentari. Haurà de fer una acció PATCH a `/comments/{commentid}` (***, triple asterisc)
 
 ## `PATCH /comments/{commentid}`
 
-Crida al mètode `update(Request $request, string $id)`.
+Crida al mètode `update(Request $request, string $commentid)`.
 
-Modifica el comentari que està en la posició {commentid} de l'array.
+Modifica el comentari que està en la posició `{commentid}` de l'array.
 Retorna l'array de comentaris
 
 ## `DELETE /comments/{commentid}`
 
 Crida al mètode `destroy(string $commentid)`
 
-Elimina de l'array el comentari en la posició {commentid}
+Elimina de l'array el comentari en la posició `{commentid}`
 Retorna l'array de comentaris.
