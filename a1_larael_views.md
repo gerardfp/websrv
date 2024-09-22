@@ -43,7 +43,7 @@ Se deberán crear:
 * una vista (`all`) que incluirá (`@include`) las vistas de los 3 catálagos
 * una vista (`producto`) para mostrar un producto 
 
-Además, estas cinco vistas, deberán incluir una barra superior con un enlace a cada catálogo, y una barra inferior con los datos de contacto de la tienda.
+Además, cada una de estas cinco vistas deberá incluir una barra superior con un enlace a cada catálogo, y una barra inferior con los datos de contacto de la tienda.
 
 ## Datos
 
