@@ -8,15 +8,7 @@ Desenvolupa una aplicació per a gestionar **comentaris**. Haurà de permetre le
 * Afegeix, també, les comandes **cURL** per a realitzar les peticions. https://stackoverflow.com/questions/50231945/how-to-get-session-id-from-curl-and-reuse-it-again-for-next-get-request
 
 L'app ha de tenir les següents 7 rutes:
-```
-GET         /comments
-GET         /comments/create
-POST        /comments
-GET         /comments/{commentid}
-GET         /comments/{commentid}/edit
-PATCH       /comments/{commentid}
-DELETE      /comments/{commentid}
-```
+
 
 ## `GET /comments`
 
