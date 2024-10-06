@@ -10,5 +10,5 @@ class Film extends Model
     use HasFactory;
 
     protected $fillable = ['title', 'plot', 'poster_url', 'year', 'rating'];
-    public $fillable2 = ['title', 'plot', 'poster_url', 'year', 'rating'];
 }
+
