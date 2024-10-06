@@ -6,7 +6,7 @@ Model: Film
 
 `curl -s "https://laravel.build/example-app?with=mysql" | bash`
 
-Solo se incluyen los ficheros modificados.
+**Solo se incluyen los ficheros modificados.**
 
 `vendor/bin/sail up`
 
