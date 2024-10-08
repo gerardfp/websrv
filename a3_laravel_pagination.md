@@ -1,5 +1,6 @@
 # Laravel Pagination
 
+https://laravel.com/docs/11.x/pagination
 
 Crea una app para mostrar noticias.
 
@@ -26,10 +27,10 @@ Crea una app para mostrar noticias.
 
 ## Crear el modelo
 
-`vendor/bin/sail php artisan make:model Noticia --all`
+1. `vendor/bin/sail php artisan make:model Noticia --all`
 
-Programar el `Migration`, `Factory` y `Seeder`
+2. Programar el `Migration`, `Factory` y `Seeder`
 
-`vendor/bin/sail php artisan migrate:fresh --seed`
+3. `vendor/bin/sail php artisan migrate:fresh --seed`
 
 ## Programar rutas, controlador y vistas
