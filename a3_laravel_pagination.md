@@ -14,7 +14,7 @@ Crea una app para mostrar noticias.
 * Rutas
   * `/`  Muestra las noticias, paginadas de 15 en 15
   * `/search/{term}` muestra las noticias que contienen el `{term}` paginadas de 15 en 15
-  * `/view/{noticia_id}` muestra la noticia con ese `noticia_es`
+  * `/view/{noticia_id}` muestra la noticia con ese `noticia_id`
  
 ### Crear el proyecto
 
