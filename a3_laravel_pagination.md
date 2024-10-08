@@ -30,6 +30,6 @@ Crea una app para mostrar noticias.
 
 Programar el `Migration`, `Factory` y `Seeder`
 
-`vendor/bin/sail php artisan migrate:fresh --seed
+`vendor/bin/sail php artisan migrate:fresh --seed`
 
 ## Programar rutas, controlador y vistas
