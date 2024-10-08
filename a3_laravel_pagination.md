@@ -28,7 +28,7 @@ Crea una app para mostrar noticias.
 
 `vendor/bin/sail php artisan make:model Noticia --all`
 
-Programar el `Migration, `Factory` y `Seeder`
+Programar el `Migration`, `Factory` y `Seeder`
 
 `vendor/bin/sail php artisan migrate:fresh --seed
 
