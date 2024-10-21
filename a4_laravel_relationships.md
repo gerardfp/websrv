@@ -9,7 +9,7 @@ Crea un agregador de noticias que permita a los usuarios:
 * Votar noticias
 * Comentar noticias
 
-Utiliza Laravel Breeze para la gestión de usuarios: https://laravel.com/docs/11.x/starter-kits#laravel-breeze
+Utiliza **Laravel Breeze** para la gestión de usuarios: https://laravel.com/docs/11.x/starter-kits#laravel-breeze
 
 El esquema de la base de datos puede ser similar a este:
 
