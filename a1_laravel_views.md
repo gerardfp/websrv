@@ -45,7 +45,7 @@ Se deberán crear:
 
 Además, cada una de estas cinco vistas deberá incluir una barra superior con un enlace a cada catálogo, y una barra inferior con los datos de contacto de la tienda.
 
-![Mockup de la app con los tres tipos de vistas.](./a1_i0.png)
+![Mockup de la app con los tres tipos de vistas.](res/a1_i0.png)
 
 ## Datos
 
