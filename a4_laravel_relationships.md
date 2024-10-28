@@ -1,6 +1,6 @@
 # Laravel Relationships
 
-Crea un agregador de noticias que permita a los usuarios:
+Crea un agregador de noticias (_similar_ a https://news.ycombinator.com) que permita a los usuarios:
 
 * Registrarse / login
 * Enviar noticias
