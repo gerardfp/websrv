@@ -19,3 +19,14 @@ Potenciales requisitos:
 - Gestión avanzada de compartición (contraseña, tiempo limitado, ...)
 
 _Entre otros..._
+
+
+## Evaluacion
+
+Max: 10 puntos
+
+* Requisitos funcionales: hasta 10 puntos
+* Diseño (CSS): hasta 2 puntos
+* UX: 3 puntos
+* Originalidad: hasta 10 puntos
+* Funcionalidad servidor: hasta 5 puntos
