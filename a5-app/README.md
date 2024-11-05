@@ -1,4 +1,4 @@
-# ♻️ MinusOneDrive File manager
+# ♻️ JuanDrive File manager
 
 
 ## Create Laravel Project
@@ -24,4 +24,4 @@ vendor/bin/sail php artisan migrate:fresh --seed
 ```
 
 
-![](./minusonedrive.png)
+![](./juandrive.png)

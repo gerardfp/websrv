@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <div style="display: flex; background: rgb(221, 100, 100); padding: 8px; align-items: center; gap: 1em;">
-    <p style="margin: 0px; margin-right: auto; font-size: xx-large; "><a href="/">♻️</a></p>
+    <p style="margin: 0px; margin-right: auto; font-size: xx-large; "><a href="/">♻️ JuanDrive</a></p>
     
     @auth
     
