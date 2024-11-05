@@ -30,3 +30,4 @@ Max: 10 puntos
 * UX (JavaScript, Accesibilidad, Localización, ...): 3 puntos
 * Originalidad: hasta 10 puntos
 * Requisitos no funcionales (seguridad, disponibilidad, ...): hasta 5 puntos
+* Uso de librerías, components y kits de terceros: hasta 1 punto
