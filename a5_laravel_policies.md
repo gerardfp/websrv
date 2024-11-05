@@ -27,6 +27,6 @@ Max: 10 puntos
 
 * Requisitos funcionales: hasta 10 puntos
 * Diseño (CSS): hasta 2 puntos
-* UX: 3 puntos
+* UX (JavaScript, Accesibilidad, Localización, ...): 3 puntos
 * Originalidad: hasta 10 puntos
-* Funcionalidad servidor: hasta 5 puntos
+* Requisitos no funcionales (seguridad, disponibilidad, ...): hasta 5 puntos
