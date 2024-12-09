@@ -58,3 +58,10 @@ Utiliza la librería `clsx` para dar _formato condicional_ a un componente:
             * blanco si el estado es `pagada`
         
 * Añade en la página principal `app/page.tsx` un componente de cada tipo
+
+# Chapter 3
+
+Crea un componente que utilice diversas fuentes e imagenes.
+
+# Chapter 4
+
