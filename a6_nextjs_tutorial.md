@@ -78,7 +78,7 @@ Crea el menú en un componente separado: `/app/ui/SideNav.tsx`.
 Añade los enlaces de navegación al menú. Utiliza el componente `Link` para hacer _client-side navigation_.
 
 
-Utiliza el _hook_ `usePathName()` para resaltar el enlace activo.
+Utiliza el _hook_ `usePathname()` para resaltar el enlace activo.
 
 # Chapter 6
 
