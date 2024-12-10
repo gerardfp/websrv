@@ -65,3 +65,4 @@ Crea un componente que utilice diversas fuentes e imagenes.
 
 # Chapter 4
 
+![](./res/a6-4.png)
