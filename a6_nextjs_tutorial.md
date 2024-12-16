@@ -82,6 +82,21 @@ Utiliza el _hook_ `usePathname()` para resaltar el enlace activo.
 
 # Chapter 6
 
+Disable type checking:
+
+https://nextjs.org/docs/pages/api-reference/config/next-config-js/typescript
+
+`next.config.ts`
+```javascript
+  typescript: {
+    // !! WARN !!
+    // Dangerously allow production builds to successfully complete even if
+    // your project has type errors.
+    // !! WARN !!
+    ignoreBuildErrors: true,
+  },
+```
+
 Quirks:
 https://github.com/gerardfp/slolingo/tree/main
 
