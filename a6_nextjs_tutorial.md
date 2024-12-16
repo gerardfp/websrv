@@ -88,6 +88,9 @@ https://nextjs.org/docs/pages/api-reference/config/next-config-js/typescript
 
 `next.config.ts`
 ```javascript
+  eslint: {
+    ignoreDuringBuilds: true
+  },
   typescript: {
     // !! WARN !!
     // Dangerously allow production builds to successfully complete even if
